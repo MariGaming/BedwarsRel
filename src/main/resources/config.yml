@@ -83,7 +83,7 @@ holographic-stats:
   # Statistic names color
   # type: string
   # The color of the statistic names (like "Kills", "Deaths" ...)
-  name-color: "&7"
+  name-color: "&d"
   
   # Statstic value color
   # type: string
@@ -99,7 +99,7 @@ holographic-stats:
 # type: boolean
 # Adds the teamname before the player name 
 # in the tablist
-teamname-on-tab: false
+teamname-on-tab: true
 
 # Teamname after player name
 # type: boolean
@@ -514,7 +514,7 @@ database:
 # Spectation enabled
 # Type: boolean
 # Defines if spectators are allowed
-spectation-enabled: false
+spectation-enabled: true
 
 # Respawn protection
 # Type: int
@@ -545,7 +545,7 @@ endgame:
 ### Configures if all players will be teleported to mainlobby after game.
 ### If false, all players will be teleported back to lobby to restart
 ### a new game. This is only recognized if mainlobby-enabled set to true
-  all-players-to-mainlobby: false 
+  all-players-to-mainlobby: true
 
 # Bungeecord configurations
 bungeecord:
