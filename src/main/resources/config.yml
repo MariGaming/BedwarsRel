@@ -178,7 +178,7 @@ place-in-liquid: true
 # type: list<int> or list<string>
 # Defines the block types which are allowed to break
 breakable-blocks:
-  - none
+  - SandStone
 
 # Join team with entity config
 jointeam-entity:
@@ -514,7 +514,7 @@ database:
 # Spectation enabled
 # Type: boolean
 # Defines if spectators are allowed
-spectation-enabled: false
+spectation-enabled: true
 
 # Respawn protection
 # Type: int
@@ -820,7 +820,7 @@ specials:
     # Teleport time
     # type: int
     # The time in seconds a teleportation should need
-    teleport-time: 6
+    teleport-time: 3
     
   # Trap settings
   trap:
